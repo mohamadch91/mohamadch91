@@ -25,9 +25,9 @@
 <!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=mohamadch91&theme=monokai" alt="Mohamad Choupan's Wakatime"></a> -->
 </p>
 <p align="center">
-  <img height="49.5%" width="49.5%" src="https://github-readme-stats.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=true&theme=darcula" >
+  <img height="49.5%" width="49.5%" src="https://github-readme-stats.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=true&theme=github_dark&count_private=true" >
 
-  <img height="49.5%" width="41.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamadch91&layout=compact&theme=darcula&langs_count=6&hide=c" />
+  <img height="49.5%" width="41.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamadch91&layout=compact&theme=github_dark&langs_count=6 />
 </p>
 
 
