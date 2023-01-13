@@ -27,7 +27,7 @@
 <p align="center">
   <img height="49.5%" width="49.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=false&theme=github_dark&count_private=true" >
 
-  <img height="49.5%" width="41.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&layout=compact&theme=github_dark&langs_count=6&hide=c" />
+  <img height="49.5%" width="41.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=mohamadch91&layout=compact&theme=github_dark&langs_count=6&hide=c" />
 </p>
 
 
