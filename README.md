@@ -20,10 +20,7 @@
 </p>
 
 ## Statistics
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamadch91&theme=github-dark-blue" alt="Mohamad Choupan's Github Steak" /><br>
-<!--   <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=mohamadch91&theme=monokai" alt="Mohamad Choupan's Wakatime"></a> -->
-</p>
+
 <p align="center">
   <img height="49.5%" width="49.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=false&theme=github_dark&count_private=true" >
 
