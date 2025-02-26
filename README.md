@@ -20,7 +20,7 @@
 </p>
 
 ## Statistics
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mohamadch91" alt="GitHub Streak" /></a>
+<a href="https://github.com/mohamadch91"><img src="https://streak-stats.demolab.com?user=mohamadch91" alt="Mohamad Choupan Streak" /></a>
 <p align="center">
   <img height="49.5%" width="49.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=false&theme=github_dark&count_private=true" >
 
