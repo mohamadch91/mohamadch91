@@ -24,15 +24,9 @@
 
 
 
-<p style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: col;
-    gap: 30px;
-" align="center" >
-  <img height="100%" width="50%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=false&theme=github_dark&count_private=true" >
-<img height="100%" width="50%" src="https://streak-stats.demolab.com?user=mohamadch91&theme=dark&hide_border=true" alt="GitHub Streak" />
+<p style="display:flex;justify-content:center;align-items:center;flex-direction: col;gap: 30px;" align="center" >
+  <img height="100%" width="49.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=false&theme=github_dark&count_private=true" >
+<img height="100%" width="49.5%" src="https://streak-stats.demolab.com?user=mohamadch91&theme=dark&hide_border=true" alt="GitHub Streak" />
 
 </p>
 
