@@ -20,16 +20,17 @@
 </p>
 
 ## Statistics
+<p align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=mohamadch91&theme=dark&hide_border=true)](https://git.io/streak-stats)
-
+</p>
 <p style="
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: col;
     gap: 30px;
-" >
+" align="center" >
 
 
 
