@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://mohamadch91.github.io">
+  <a href="https://mohamadch91.github.io" style="display: inline-block; margin-bottom: 20px;">
     <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Mohammad+Choupan;Full+Stack+%26+AI+Engineer" alt="Typing SVG" />
   </a>
 </h1>
