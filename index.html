@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Choupan — AI Researcher</title>
+    <meta name="description" content="Mohammad Choupan: AI Researcher and MSc student at University of Bologna. Specialized in Computer Vision, NLP, and Deep Learning.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">MC<span class="logo-dot">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About & Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#teaching" class="nav-link">Teaching</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Mohammad Choupan</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title" id="heroTitle"></span>
+                <span class="hero-cursor">|</span>
+            </div>
+            <p class="hero-tagline">Building the next generation of intelligent systems and computer vision models.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Contact for PhD / Internship</a>
+                <a href="#publications" class="btn btn-outline">View Research</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="30">0</span><span class="stat-suffix">/30</span>
+                    <span class="stat-label">MSc GPA (UniBo)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="3.83">0</span><span class="stat-suffix">/4</span>
+                    <span class="stat-label">BSc Final 2 Yrs GPA</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">TA Roles</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        </a>
+    </section>
+
+    <!-- About & Education Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">Academic Profile</h2>
+            <div class="about-grid">
+                <div class="education-column reveal">
+                    <h3 class="subsection-title">Education</h3>
+                    
+                    <div class="education-card academic-card">
+                        <div class="edu-flag">🎓</div>
+                        <div class="edu-content">
+                            <h3>MSc in Artificial Intelligence</h3>
+                            <p class="edu-university">University of Bologna, Italy</p>
+                            <p class="edu-date">2025 – Present</p>
+                            <div class="edu-gpa">GPA: <strong>30/30</strong></div>
+                        </div>
+                    </div>
+
+                    <div class="education-card academic-card" style="margin-top: 20px;">
+                        <div class="edu-flag">🎓</div>
+                        <div class="edu-content">
+                            <h3>BSc in Computer Engineering</h3>
+                            <p class="edu-university">Amirkabir University of Technology, Tehran</p>
+                            <p class="edu-date">2020 – 2024</p>
+                            <div class="edu-gpa">GPA: <strong>3.7/4</strong> (Overall) &nbsp;|&nbsp; <strong>3.83/4</strong> (Last 2 Years)</div>
+                            <p class="edu-thesis" style="margin-top:8px;"><strong>National Chemistry Olympiad Bronze Medal (2018)</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <h3 class="subsection-title">Research Interests</h3>
+                    <p class="about-lead">
+                        My research is centered around making intelligent systems that can perceive and interact with the world reliably.
+                    </p>
+                    <div class="interest-tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Panoptic Segmentation</span>
+                        <span class="tag">Point Cloud Classification</span>
+                        <span class="tag">Large Language Models (LLMs)</span>
+                        <span class="tag">Natural Language Processing (NLP)</span>
+                        <span class="tag">Information Retrieval</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Thesis Section -->
+    <section class="section publications" id="publications">
+        <div class="container">
+            <h2 class="section-title reveal">Publications & Thesis</h2>
+            
+            <div class="pub-card reveal">
+                <div class="pub-type">In Progress Paper</div>
+                <h3 class="pub-title">PointNet meets Self-Attention Graph Pooling: A Synergistic Approach to Point Cloud Classification</h3>
+                <p class="pub-authors">M. Ebadpour, M. Javan, <strong>M. Choupan</strong>, M. Atyabi</p>
+                <p class="pub-desc">Implementation and analysis of combining two common models in 3D Object classification, including SAG Pool and Point-Net, to achieve the highest accuracy in point cloud classification.</p>
+                <div class="pub-links">
+                    <a href="https://github.com/MohsenEbadpour/PointNet-meets-Self-Attention-Graph-Pooling-A-Synergistic-Approach-to-Point-Cloud-Classification" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.85rem;">View GitHub Repository</a>
+                </div>
+            </div>
+
+            <div class="pub-card reveal" style="margin-top: 30px;">
+                <div class="pub-type">BSc Thesis</div>
+                <h3 class="pub-title">Assessment of the Fusion of Graph Models and Point Net Model for Processing Graph and Point Cloud Data</h3>
+                <p class="pub-authors">Supervisor: Prof. Javanmardi | Amirkabir University of Technology (2023-2024)</p>
+                <p class="pub-desc">Applied architectural design and requirement evaluation to prototype a combined 3D Object classification model (SAG Pool and Point-Net). Performed comparative evaluation of the final results via rigorous quality metrics against established benchmarks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Work Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title reveal">Research & ML Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>ML Engineer</h3>
+                                <p class="timeline-company">Behavior Understanding Project</p>
+                            </div>
+                            <span class="timeline-date">2025 – 2026</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Designed a large language model (LLM) pipeline to analyze government behavior based on activity across social networks and news sources.</li>
+                            <li>Gathered requirements and validated a prototype chatbot using a fine-tuned LLM.</li>
+                            <li>Conducted effectiveness benchmarking on the prototype, tracking accuracy enhancements by <strong>20%</strong>.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">LLM</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Transformers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>ML Engineer</h3>
+                                <p class="timeline-company">Profile Mapping Project</p>
+                            </div>
+                            <span class="timeline-date">2024 – 2025</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Mapped different social media profiles belonging to the same individual and extracted comprehensive personal data.</li>
+                            <li>Implemented data integration techniques and applied NLP to extract relevant information from user-generated content.</li>
+                            <li>Built an information retrieval system based on specific queries.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Information Retrieval</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Computer Vision Researcher</h3>
+                                <p class="timeline-company">Point Cloud Classification</p>
+                            </div>
+                            <span class="timeline-date">2023 – 2024</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Implemented and evaluated various point cloud classification models (PointNet, SAG Pool) to classify 3D data from Carla and ROS 2 simulators.</li>
+                            <li>Developed data processing pipelines to preprocess and augment point cloud data, drastically improving classification performance.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">PointNet</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Computer Vision Researcher</h3>
+                                <p class="timeline-company">Self-Driving Car Positioning Error</p>
+                            </div>
+                            <span class="timeline-date">2023 – 2024</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Evaluated positioning error in self-driving cars using map matching methods.</li>
+                            <li>Identified objects causing errors in the NDT matching algorithm and utilized Neural Networks to classify error-inducing vs. error-reducing objects.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Neural Networks</span>
+                            <span class="tag">Autonomous Driving</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Assistant Experience Section -->
+    <section class="section teaching" id="teaching">
+        <div class="container">
+            <h2 class="section-title reveal">Teaching Assistant Experience</h2>
+            <div class="ta-grid">
+                <div class="ta-card reveal">
+                    <h3>Head Teaching Assistant Roles</h3>
+                    <ul>
+                        <li><strong>Embedded and Real-time Systems</strong> - Spring 2023</li>
+                        <li><strong>Algorithm Design</strong> - Spring 2022</li>
+                        <li><strong>Microprocessor and Assembly Lab</strong> - Fall 2022</li>
+                    </ul>
+                </div>
+                <div class="ta-card reveal">
+                    <h3>AI & Data Roles</h3>
+                    <ul>
+                        <li><strong>Data Mining</strong> - Fall 2023</li>
+                        <li><strong>Fundamentals of Robotics</strong> - Spring 2023</li>
+                        <li><strong>Data Structures and Algorithms</strong> - Fall 2021</li>
+                    </ul>
+                </div>
+                <div class="ta-card reveal">
+                    <h3>Core Systems Roles</h3>
+                    <ul>
+                        <li><strong>Computer Networks</strong> - Fall 2024</li>
+                        <li><strong>Cloud Computing</strong> - Fall 2023</li>
+                        <li><strong>Algorithm Design</strong> - Fall 2022 & Spring 2023</li>
+                        <li><strong>Microprocessor and Assembly</strong> - Spring 2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span>
+                        <span>TensorFlow</span>
+                        <span>Scikit-learn</span>
+                        <span>Hugging Face</span>
+                        <span>Transformers</span>
+                        <span>NLTK</span>
+                        <span>SpaCy</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Processing</h3>
+                    <div class="skill-tags">
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>PostgreSQL</span>
+                        <span>Elasticsearch</span>
+                        <span>Vector Databases</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">💻</div>
+                    <h3>Tools & Development</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>ROS 2</span>
+                        <span>Git</span>
+                        <span>Docker</span>
+                        <span>Linux / Bash</span>
+                        <span>LaTeX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <p class="contact-subtitle reveal">Open to PhD opportunities and Research Internships in AI/CV</p>
+            <div class="contact-grid reveal">
+                <a href="mailto:mohamadchoupan80@gmail.com" class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>mohamadchoupan80@gmail.com</p>
+                </a>
+                <a href="https://github.com/mohamadch91" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>mohamadch91</p>
+                </a>
+                <a href="tel:+393520119670" class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>+39 3520 119 670</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mohammad Choupan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

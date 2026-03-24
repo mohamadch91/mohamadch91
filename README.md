@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://mohamadch91.github.io" style="display: inline-block; margin-bottom: 20px;">
-    <img style="margin-bottom: 20px;" src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Mohammad+Choupan;Full+Stack+%26+AI+Engineer" alt="Typing SVG" />
+  <a href="https://mohamadch91.github.io" style="display: inline-block; ">
+    <img  src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=32&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=90&lines=Mohammad+Choupan;Full+Stack+%26+AI+Engineer" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -87,7 +87,7 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="100%" width="48.5%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mohamadch91&show_icons=true&include_all_commits=true&theme=github_dark&count_private=true&hide_border=true" />
+
   <img height="100%" width="50%" src="https://streak-stats.demolab.com?user=mohamadch91&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
 </p>
 
