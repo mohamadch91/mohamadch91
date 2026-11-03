@@ -18,10 +18,10 @@ function initTyping() {
     if (!el) return;
 
     const titles = [
-        'MSc AI Student @ University of Bologna',
-        'AI & ML Researcher',
-        'Computer Vision Enthusiast',
-        'Seeking PhD & Research Roles'
+      "MSc AI Student @ University of Bologna",
+      "Vision & ML Engineer",
+      "Computer Vision Enthusiast",
+      "Seeking PhD & Research Roles",
     ];
 
     let titleIndex = 0;
